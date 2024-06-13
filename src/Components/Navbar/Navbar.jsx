@@ -9,8 +9,8 @@ export default function Navbar() {
   const [menu, setMenu] = useState("home");
   return (
     <div className="navbar">
-      <img className="resize" src={sujitl} alt="" />
-      <img src={menu_open} alt="" className="nav-mob-open" />
+      {/* <img className="resize" src={sujitl} alt="" /> */}
+      {/* <img src={menu_open} alt="" className="nav-mob-open" /> */}
       <ul className="navmenu">
         <img src={menu_close} alt="" className="nav-mob-close" />
         <li>
